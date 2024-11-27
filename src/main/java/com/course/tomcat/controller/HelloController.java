@@ -21,7 +21,7 @@ public class HelloController {
 
 	@GetMapping(value = "/hero")
     String hero(){
-        return "My favorite superhero is Ironman";
+        return "My favorite superhero is Ironman"
     }
  
 }
